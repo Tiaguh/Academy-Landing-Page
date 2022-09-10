@@ -1,0 +1,42 @@
+
+.infrestutura-titulo{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.infrestutura {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+.card2 {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 8px 10px 7px 5px lightgray;
+    margin-bottom: 35px;
+}
+
+.card2:hover{
+    box-shadow: 8px 10px 20px black;
+}
+
+.card2 p{
+    text-align: center;
+    font-weight: 500;
+    margin: 5px;
+}
+
+.imagem-infrestutura{ 
+    border-radius: 10px;
+    max-width: 300px;
+    min-width: 100px;
+}
+
+hr{
+    display: block;
+    width: 99%;
+}
