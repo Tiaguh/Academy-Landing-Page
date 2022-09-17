@@ -19,3 +19,8 @@
     font-size: xx-large;
     text-align: center;
 }
+
+.linha{
+    display: block;
+    width: 100%;
+}

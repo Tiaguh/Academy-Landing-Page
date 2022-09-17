@@ -10,7 +10,7 @@ function Main() {
                 <h3>Join Now</h3>
             </div>
             <img className="foto" src={meucasal} />
-            <hr />
+            <hr className="linha"></hr>
         </div>
     );
 }

@@ -37,3 +37,9 @@ h4{
 
     text-align: center;
 }
+
+.linha{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}

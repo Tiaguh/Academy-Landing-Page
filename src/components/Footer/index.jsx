@@ -16,7 +16,7 @@ function Footer() {
                 <div className="footer-text">
                     <p>Follow our social networks:</p>
                 </div>
-                <hr />
+                <hr className="linha"></hr>
             <div className="footer-socialMedias-icons">
                 <div className="icons">
                     <img className="footer-socialMedias" src={facebook} alt="" />

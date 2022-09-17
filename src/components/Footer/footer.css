@@ -18,9 +18,9 @@ footer{
     width: 100px;
 }
 
-hr{
+.linha{
     display: block;
-    width: 99%;
+    width: 100%;
 }
 
 .footer-socialMedias {

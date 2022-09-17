@@ -16,7 +16,7 @@ function Section() {
                     <h3>$ 7.99</h3>
                 </div>
             </div>
-            <hr />
+            <hr className="linha"></hr>
         </div>
     );
 }
