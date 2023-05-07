@@ -17,7 +17,6 @@
     justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 15px;
 }
 .card2 {
     background-color: white;
@@ -40,9 +39,4 @@
     border-radius: 10px;
     max-width: 300px;
     min-width: 100px;
-}
-
-.linha{
-    display: block;
-    width: 95%;
 }

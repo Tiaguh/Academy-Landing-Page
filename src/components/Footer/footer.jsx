@@ -7,35 +7,39 @@ import spotify from './icons/spotify.png'
 import tiktok from './icons/tiktok.png'
 import twitter from './icons/twitter.png'
 
-function Footer() {
+export default function Footer() {
     return (
         <footer>
             <div className="logo">
                 <img className="footer-icon" src={icon} /> <p>Body Impact</p>
             </div>
-                <div className="footer-text">
-                    <p>Follow our social networks:</p>
-                </div>
-                <hr className="linha"></hr>
-            <div className="footer-socialMedias-icons">
-                <div className="icons">
-                    <img className="footer-socialMedias" src={facebook} alt="" />
-                </div>
-                <div className="icons">
-                    <img className="footer-socialMedias" src={instagram} alt="" />
-                </div>
-                <div className="icons">
-                    <img className="footer-socialMedias" src={spotify} alt="" />
-                </div>
-                <div className="icons">
-                    <img className="footer-socialMedias" src={tiktok} alt="" />
-                </div>
-                <div className="icons">
-                    <img className="footer-socialMedias" src={twitter} alt="" />
-                </div>
+
+            <div className="footer-text">
+                <p>Follow our social networks:</p>
             </div>
+
+            <hr />
+
+            <div className="footer-socialMedias-icons">
+
+                <div className="icons">
+                    <img className="footer-socialMedias" src={facebook} />
+                </div>
+                <div className="icons">
+                    <img className="footer-socialMedias" src={instagram} />
+                </div>
+                <div className="icons">
+                    <img className="footer-socialMedias" src={spotify} />
+                </div>
+                <div className="icons">
+                    <img className="footer-socialMedias" src={tiktok} />
+                </div>
+                <div className="icons">
+                    <img className="footer-socialMedias" src={twitter} />
+                </div>
+
+            </div>
+
         </footer>
     );
 }
-
-export default Footer;

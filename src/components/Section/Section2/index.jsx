@@ -22,7 +22,7 @@ function Section2() {
                 <img className="imagem-infrestutura" src={area} alt="" />
                 <p>Weight training and cardio areas</p>
             </div>
-             <hr className="linha"></hr>
+            <hr />
         </div>
     );
 }

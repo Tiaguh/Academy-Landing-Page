@@ -1,17 +1,21 @@
 import React from "react";
 import './main.css';
-import meucasal from './meucasal.png'
+import img from './img.png'
 
 function Main() {
     return (
-        <div className="main">
-            <div>
+        <main>
+            <div className="text-container">
+
                 <h3>Start Fitness Training</h3>
                 <h3>Join Now</h3>
+
             </div>
-            <img className="foto" src={meucasal} />
-            <hr className="linha"></hr>
-        </div>
+
+            <img src={img} />
+
+            <hr />
+        </main>
     );
 }
 
