@@ -1,7 +1,7 @@
 import React from "react";
-import './section.css'
+import './Plans.css'
 
-export default function Section() {
+export default function Plans() {
     return (
         <section>
 

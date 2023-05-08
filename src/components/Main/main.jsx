@@ -1,8 +1,8 @@
 import React from "react";
-import './main.css';
+import './Main.css';
 import img from './img.png'
 
-function Main() {
+export default function Main() {
     return (
         <main>
             <div className="text-container">
@@ -18,5 +18,3 @@ function Main() {
         </main>
     );
 }
-
-export default Main;
