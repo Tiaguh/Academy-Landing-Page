@@ -1,11 +1,11 @@
 .infrestutura-titulo {
     width: 100%;
-    
+
     color: rgb(22, 71, 129);
     font-size: 20px;
-    
+
     text-align: center;
-    
+
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -19,7 +19,7 @@
     flex-wrap: wrap;
 }
 
-.card-container .card {
+.card-container .card-infrastruture {
     width: 350px;
     height: 350px;
 
@@ -36,17 +36,101 @@
     margin-bottom: 35px;
 }
 
-.card-container .card:hover {
+.card-container .card-infrastruture:hover {
     box-shadow: 8px 10px 20px #000;
 }
 
-.card-container .card p {
+.card-container .card-infrastruture p {
     text-align: center;
     font-weight: 500;
+
+    font-size: 20px;
 }
 
-.card-container .card img {
+.card-container .card-infrastruture img {
     border-radius: 10px;
 
     width: 320px;
+}
+
+@media (max-width: 600px) {
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card-container .card-infrastruture {
+        width: 500px;
+        height: 500px;
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+
+        background-color: #F1F1F1;
+        border-radius: 10px;
+
+        box-shadow: 8px 10px 7px 5px #D9D9D9;
+
+        margin-bottom: 35px;
+    }
+
+    .card-container .card-infrastruture img {
+        border-radius: 10px;
+
+        width: 480px;
+    }
+
+    .card-container .card-infrastruture p {
+        text-align: center;
+        font-weight: 500;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 450px) {
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card-container .card-infrastruture {
+        width: 400px;
+        height: 400px;
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+
+        background-color: #F1F1F1;
+        border-radius: 10px;
+
+        box-shadow: 8px 10px 7px 5px #D9D9D9;
+
+        margin-bottom: 35px;
+    }
+
+    .card-container .card-infrastruture img {
+        border-radius: 10px;
+
+        width: 380px;
+    }
+
+    .card-container .card-infrastruture p {
+        text-align: center;
+        font-weight: 500;
+        font-size: 22px;
+    }
 }

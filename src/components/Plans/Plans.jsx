@@ -10,14 +10,14 @@ export default function Plans() {
 
             <div className="planos">
 
-                <div className="card">
+                <div className="card-plans">
 
                     <p>Annual Plan </p>
                     <h3>$ 79.99</h3>
 
                 </div>
 
-                <div className="card">
+                <div className="card-plans">
 
                     <p>Month Plan </p>
                     <h3>$ 7.99</h3>

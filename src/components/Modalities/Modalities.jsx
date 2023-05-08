@@ -9,7 +9,7 @@ import bateria from './img/icons/bateria.png'
 
 export default function Modalities() {
     return (
-        <div className="modalidades">
+        <div>
 
             <div className="modalidades-titulo">
                 <h1>Exclusive classes and training!</h1>
@@ -17,35 +17,43 @@ export default function Modalities() {
 
             <div className="cards-container">
 
-                <div className="card">
+                <div className="card-modalites">
+
                     <img className="modalidades-imagem" src={dance} />
+
                     <h3>FITDANCE</h3>
+
                     <div className="modalidades-icons-container">
-                        <div className="relogio">
+
+                        <div className="clock">
                             <img className="modalidades-icons" src={relogio} />
-                            <h6>Duration <br /> 30/ 45 /60 min</h6>
+                            <h6>Duration <br /> 30 | 45 | 60 min</h6>
                         </div>
-                        <div className="bateria">
+
+                        <div className="batery">
                             <img className="modalidades-icons" src={bateria} />
                             <h6>High Intensity</h6>
                         </div>
+
                     </div>
+
                     <hr />
+
                     <div>
                         <p>For you to enjoy every step, Smart Fit dance classes are taught by teachers licensed by FitDance.</p>
                     </div>
 
                 </div>
 
-                <div className="card">
+                <div className="card-modalites">
                     <img className="modalidades-imagem" src={shape} />
                     <h3>SMART SHAPE</h3>
                     <div className="modalidades-icons-container">
-                        <div className="relogio">
+                        <div className="clock">
                             <img className="modalidades-icons" src={relogio} />
-                            <h6>Duration<br /> 30/ 45 /60 min</h6>
+                            <h6>Duration<br /> 30 | 45 | 60 min</h6>
                         </div>
-                        <div className="bateria">
+                        <div className="batery">
                             <img className="modalidades-icons" src={bateria} />
                             <h6>High Intensity</h6>
                         </div>
@@ -54,17 +62,17 @@ export default function Modalities() {
                     <div><p>Our exclusive, intense, 30-minute slimming circuit is a combination of several exercises.</p></div>
                 </div>
 
-                <div className="card">
+                <div className="card-modalites">
 
                     <img className="modalidades-imagem" src={combat} />
 
                     <h3>BODY COMBAT</h3>
                     <div className="modalidades-icons-container">
-                        <div className="relogio">
+                        <div className="clock">
                             <img className="modalidades-icons" src={relogio} />
-                            <h6>Duration <br /> 30/45/60 min</h6>
+                            <h6>Duration <br /> 30 | 45 | 60 min</h6>
                         </div>
-                        <div className="bateria">
+                        <div className="batery">
                             <img className="modalidades-icons" src={bateria} />
                             <h6>High Intensity</h6>
                         </div>

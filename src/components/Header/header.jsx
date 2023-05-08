@@ -1,5 +1,5 @@
 import React from "react";
-import './header.css';
+import './Header.css';
 import icon from './img/icon5.png'
 
 export default function Header() {

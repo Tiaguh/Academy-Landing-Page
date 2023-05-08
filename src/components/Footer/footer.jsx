@@ -1,5 +1,6 @@
 import React from "react";
-import './footer.css'
+import './Footer.css'
+
 import icon from './icons/icon5.png'
 import facebook from './icons/facebook.png'
 import instagram from './icons/instagram.png'
@@ -11,7 +12,8 @@ export default function Footer() {
     return (
         <footer>
             <div className="logo">
-                <img className="footer-icon" src={icon} /> <p>Body Impact</p>
+                <img className="footer-icon" src={icon} /> 
+                <p>Body Impact</p>
             </div>
 
             <div className="footer-text">
@@ -21,23 +23,11 @@ export default function Footer() {
             <hr />
 
             <div className="footer-socialMedias-icons">
-
-                <div className="icons">
-                    <img className="footer-socialMedias" src={facebook} />
-                </div>
-                <div className="icons">
-                    <img className="footer-socialMedias" src={instagram} />
-                </div>
-                <div className="icons">
-                    <img className="footer-socialMedias" src={spotify} />
-                </div>
-                <div className="icons">
-                    <img className="footer-socialMedias" src={tiktok} />
-                </div>
-                <div className="icons">
-                    <img className="footer-socialMedias" src={twitter} />
-                </div>
-
+                <img src={facebook} />
+                <img src={instagram} />
+                <img src={spotify} />
+                <img src={tiktok} />
+                <img src={twitter} />
             </div>
 
         </footer>

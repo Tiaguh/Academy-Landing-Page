@@ -15,17 +15,17 @@ export default function Infrastructure() {
 
             <div className="card-container">
 
-                <div className="card">
+                <div className="card-infrastruture">
                     <img className="imagem-infrestutura" src={equipments} />
                     <p>High standard equipment</p>
                 </div>
 
-                <div className="card">
+                <div className="card-infrastruture">
                     <img className="imagem-infrestutura" src={room} />
                     <p>Exclusive group classrooms</p>
                 </div>
 
-                <div className="card">
+                <div className="card-infrastruture">
                     <img className="imagem-infrestutura" src={area} />
                     <p>Weight training and cardio areas</p>
                 </div>

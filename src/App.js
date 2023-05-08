@@ -1,23 +1,21 @@
 import './App.css';
-import Footer from './components/Footer/footer';
-import Header from './components/Header/header';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
 import Main from './components/Main/Main';
 import Plans from './components/Plans/Plans'
 
 import Infrastructure from './components/Infrastructure/Infrastructure'
-import Section3 from './components/Section/Section3/Modalities';
+import Modalities from './components/Modalities/Modalities'
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
+    <div>
       <Header />
       <Main />
       <Plans />
       <Infrastructure />
-      <Section3 />
+      <Modalities />
       <Footer />
     </div>
   );
 }
-
-export default App;
