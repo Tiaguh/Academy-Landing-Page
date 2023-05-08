@@ -1,7 +1,8 @@
 import React from "react";
 import './Footer.css'
 
-import icon from './icons/icon5.png'
+import icon from './icons/icon.png'
+
 import facebook from './icons/facebook.png'
 import instagram from './icons/instagram.png'
 import spotify from './icons/spotify.png'
