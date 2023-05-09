@@ -12,3 +12,13 @@ hr{
   margin-top: 15px;
   margin-bottom: 15px;
 }
+
+::-webkit-scrollbar{
+  background-color: #D9D9D9;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: rgb(22, 71, 129);
+
+  border-radius: 5px;
+}
